@@ -1,39 +1,26 @@
+
 \documentclass[12pt]{article}
 
 \usepackage[a4paper,top=0.8in,bottom=0.8in,left=1in,right=1in]{geometry}
-
 \usepackage{XCharter}
-
 \usepackage[T1]{fontenc}
-
 \usepackage[utf8]{inputenc}
-
 \usepackage[hidelinks]{hyperref}
-
 \usepackage{graphicx}
-
 \usepackage{setspace}
-
 \usepackage{xcolor}
-
 \usepackage{eso-pic}
-
 \usepackage{tikz}
 
 \pagestyle{empty}
-
 \setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setstretch{1.12}
 
-\setlength{\parskip}{8pt}
-
-\setstretch{1.25}
-
-% ===== Accent color — change this one line to re-theme =====
-
+% ===== Couleur principale =====
 \definecolor{accent}{HTML}{0B2E59}
 
-% ===== Left border bar, drawn inside the existing margin =====
-
+% ===== Barre latérale =====
 \AddToShipoutPictureBG*{%
   \begin{tikzpicture}[remember picture, overlay]
     \fill[accent] (current page.north west) rectangle
@@ -43,21 +30,18 @@
 
 \begin{document}
 
-% ===== Header =====
-
+% ===== En-tête =====
 \begin{center}
 
-{\Huge Omar Chouchane}\\[4pt]
+{\Huge\color{accent} Rayen Sboui}\\[4pt]
 
-\href{mailto:omarchouchane.03@gmail.com}{omarchouchane.03@gmail.com}
+\href{mailto:rayensboui5@gmail.com}{rayensboui5@gmail.com}
 \ | \
-\href{https://github.com/OmarChouchane}{GitHub}
-\ | \
-\href{https://linkedin.com/in/omar-chouchane-87215a201}{LinkedIn}
++216 94 990 787
 
 \end{center}
 
-\vspace{10pt}
+\vspace{8pt}
 
 \today
 
@@ -65,32 +49,33 @@
 
 \textbf{{{COMPANY}}}
 
-\vspace{10pt}
+\vspace{8pt}
 
 {{GREETING}}
 
 \vspace{5pt}
 
-J'espère que ce courrier vous trouve en bonne santé. Je m'appelle Omar Chouchane, et je suis étudiant en dernière année d'ingénierie en \textbf{Réseaux et Télécommunications} à l'\textbf{INSAT}, profondément passionné par l'\textbf{infrastructure cloud} et l'\textbf{automatisation}. Je souhaite conclure ce chapitre de mon parcours académique par un \textbf{stage de fin d'études de 6 mois}, à partir de \textbf{février 2027}, afin de mettre mes compétences en pratique.
+Je vous adresse ma candidature pour un stage au sein de {{COMPANY}}. Je souhaite mettre à profit mes compétences en ingénierie et en analyse de données pour contribuer à des projets concrets et innovants.
 
-\vspace{5pt}
+Je suis actuellement étudiant en cycle ingénieur en Génie Industriel et Instrumentation à l'INSAT, parallèlement titulaire d'une licence en Data Science and Business Analytics de l'Université de Londres.
 
-Mon expérience couvre l'ensemble de la chaîne \textbf{DevOps} et \textbf{Cloud} : provisionnement d'infrastructures sur \textbf{AWS} et \textbf{Azure} avec \textbf{Terraform}, orchestration avec \textbf{Docker} et \textbf{Kubernetes}, et conception de pipelines \textbf{CI/CD} sur \textbf{GitHub Actions} et \textbf{Jenkins} intégrant sécurité et observabilité dès la conception. J'ai déployé une plateforme \textbf{GitOps} sur \textbf{Amazon EKS}, un pipeline \textbf{DevSecOps} appliquant le \textbf{policy-as-code}, ainsi qu'une architecture hautement disponible sur \textbf{Azure}, le tout appuyé par ma certification \textbf{AWS Certified Solutions Architect -- Associate}.
+Lors de mon stage au CEA Grenoble, j'ai découvert les procédés de fabrication des semi-conducteurs, notamment la photolithographie, la gravure chimique et le dépôt de couches minces, ainsi que la conception numérique avec VHDL et FPGA. Chez Visteon, j'ai développé une solution d'automatisation basée sur l'OCR, permettant de réduire les coûts de 20 000 \$ à 1 500 \$ par ligne de production.
 
-\vspace{5pt}
+J'ai également acquis de l'expérience en machine learning chez Amaris Consulting et en analyse de données et développement de solutions numériques à l'UNFPA. Mes projets académiques m'ont aussi permis d'explorer la modélisation des transferts thermiques, l'apprentissage par renforcement et l'analyse prédictive avec Python.
 
-Au-delà de l'aspect technique, je suis également actif dans la vie universitaire : j'ai mené des projets au sein de clubs étudiants, participé à des actions humanitaires et contribué à l'organisation d'événements, ce qui a renforcé mon esprit d'équipe et mon goût pour l'engagement collectif au-delà du travail technique.
+En parallèle, j'ai occupé le poste de président d'IEEE SIGHT INSAT, où j'ai dirigé des initiatives en ingénierie et coordonné des projets interdisciplinaires. Cette expérience m'a permis de renforcer mes compétences en leadership, en travail d'équipe et en gestion de projets.
 
-\vspace{5pt}
+Je recherche actuellement un stage de fin d'études de six mois à partir de février 2027. Je serais ravi de rejoindre votre équipe, de contribuer à vos projets et de continuer à développer mes compétences techniques.
 
-Je suis convaincu que mes bases techniques et mon approche concrète de l'infrastructure feraient de moi un véritable atout pour votre équipe, et je serais heureux d'échanger avec vous sur la façon dont je pourrais y contribuer.
+Je vous remercie pour l'attention portée à ma candidature et serais heureux de pouvoir échanger avec vous sur la manière dont mon parcours pourrait contribuer à vos activités.
 
 {{CLOSING}}
 
-\textit{Omar Chouchane}
+\textit{Rayen Sboui}
 
-\vspace{8pt}
+\vspace{5pt}
 
-\includegraphics[width=1.4in]{img/signature.png}
+\includegraphics[width=1.2in]{img/signature.png}
 
 \end{document}
+```
